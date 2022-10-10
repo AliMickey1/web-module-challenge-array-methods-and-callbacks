@@ -8,7 +8,11 @@ Practice accessing data by console.log-ing the following pieces of data note.
 💡 HINT: You may want to filter the data first 😉*/
 
 //(a) Home Team name for 2014 world cup final
+const homeTeamName = fifaData.filter((home){
+return fifaData.home.name;
+});
 
+console.log(homeTeamName);
 //(b) Away Team name for 2014 world cup final
 
 //(c) Home Team goals for 2014 world cup final
